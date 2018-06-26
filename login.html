@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +10,16 @@
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index-style.css">
-    <title>Login - Warranty</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>A.T. Login</title>
 </head>
 <body>
     <!-- login -->
     <section class="container-fluid">
         <section class="row justify-content-center">
             <section class="col-">
-                <form action="logged.php" method="POST" class="form-container">
-                    <h1>Warranty Tracker</h1>
+                <form action="logged.php" method="POST" class="form-container" autocomplete="off">
+                    <h1 class="text-center">Radni nalozi</h1>
                     <br>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
@@ -32,7 +33,7 @@
                         </div>
                         <input id="pass" name="pass" class="form-control" type="password" placeholder="Password">
                     </div>
-                    <button id="btn" value="login" type="submit" class="btn btn-warning btn-block" >Submit</button>
+                    <button name="submitLogin" type="submit" class="btn btn-warning btn-block" >Submit</button>
                 </form>
             </section>
         </section>

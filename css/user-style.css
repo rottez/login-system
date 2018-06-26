@@ -1,0 +1,12 @@
+
+.form-container{
+    margin-top: 2em;
+    padding: 1em;
+    box-shadow: 0px 0px 10px 0px darkgrey;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}

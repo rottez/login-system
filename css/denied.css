@@ -1,0 +1,9 @@
+.denied{
+    padding-top: 100px;
+    text-align: center;
+    color: #333;
+}
+.denied img{
+    width: 10%;
+    height: auto;
+}
